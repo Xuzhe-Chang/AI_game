@@ -1,0 +1,58 @@
+# 忽略 Unity 缓存和构建相关
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+UserSettings/
+Logs/
+MemoryCaptures/
+
+# 忽略 VS / Rider 等 IDE 自动生成的工程文件
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.user
+
+# 忽略插件和第三方资源
+Assets/Plugins/
+Assets/Behavior Designer/
+Assets/PolyNav2D/
+Assets/StreamingAssets/
+Assets/TextMesh Pro/
+
+# 忽略素材文件夹（默认不提交图片、动画、音效等）
+Assets/Animation/
+Assets/Effects/
+Assets/Materials/
+Assets/Prefabs/
+Assets/Mesh/
+Assets/Cinema/
+Assets/2D Light/
+Assets/Physics/
+Assets/Gizmos/
+Assets/InputSystem/
+Assets/Resources/
+Assets/Mixer/
+Assets/Shader/
+Assets/Models/
+Assets/Audio/
+
+# 忽略所有 .meta 文件（不推荐上传）
+*.meta
+
+# 保留你写的脚本和逻辑目录（重点保留 AI / Boss 代码）
+!Assets/Scripts/
+!Assets/FK/
+!Assets/Scenes/
+
+# 如果你有编辑的行为树配置（如 .asset 或 XML）也可保留
+!Assets/Behavior Designer/*.asset
+!Assets/Behavior Designer/*.xml
+
+# 如果 PolyNav2D 中 Agent 控制是你写的，也保留该脚本
+!Assets/PolyNav2D/AgentController.cs
+
+
+
